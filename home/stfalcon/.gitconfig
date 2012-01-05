@@ -1,0 +1,23 @@
+[user]
+        name = Stepan Tanasiychuk
+        email = stepan.tanasiychuk@gmail.com
+
+[alias]
+        ci = commit
+        co = checkout
+        st = status
+        br = branch
+        wdiff = diff --color-words
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+
+[core]
+        editor = vim
+	excludesfile = /home/stfalcon/.gitignore_global
+	autocrlf = input
+	whitespace = trailing-space,space-before-tab
+
+[merge]
+        summary = true
+
+[color]
+	ui = true
